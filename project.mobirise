@@ -1,0 +1,1197 @@
+{
+  "settings": {
+    "currentPage": "safety.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "titlePreset": "Landing Page",
+      "nameSelectPreset": "landing",
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Site-03-02_1815",
+    "versionFirst": "4.12.2",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 55,
+    "versionPublish": "4.12.2",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "PEIRA Летние курсы",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#dddddd"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#d3d3d3"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#dddddd",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">О курсах</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Программы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Безопасность</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">В лагере</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-9\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://www.uniprep.cz/application/p1\">Заявка</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/uniprep-logo-2015-rgb.svg",
+              "class": "",
+              "height": 128,
+              "alt": "UniPrep",
+              "link": "https://www.uniprep.cz/ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PEIRA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1263.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
+          },
+          "title": "<b>PEIRA</b><br>",
+          "text": "Летние курсы",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Join Us</a>        ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-a",
+          "_styles": {
+            "H1": {
+              "color": "#0275d8",
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "color": "#0275d8",
+              "text-align": "center",
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc-895-1400x927.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<br>Программа",
+          "text": "<p>Только в настоящем чешском лагере Вы сможете открыть для себя чешские привычки, чешский менталитет, а главное, Чехию мы покажем так, как не сумеет ни один гид.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-d",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "32px"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "25",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fad1c7",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc04867-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Безопасность",
+          "text": "<p>Безопасность в нашем лагере – на первом месте. Ознакомтесь с мерами ее обеспечения во время наших курсов</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc03620-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<br>В лагере",
+          "text": "<p>Об условиях проживания и тому подобное</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box4-12"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/11178210863-bdb51a7b07-b-1023x379.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8"
+          },
+          "title": "UniPrep",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Что-нибудь об Унипрепе",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://www.uniprep.cz/\" data-toolbar=\"-mbrBtnMove\">UniPrep.cz</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-4"
+        },
+        {
+          "_params": {
+            "token": "",
+            "showTitle": true,
+            "layoutGridRadio": false,
+            "imagesPerRowGrid": 6,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColorRadio": false,
+            "bgColor": "#fafafa",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": true,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Показать больше</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-1i"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0.8",
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10239.11604525525!2d13.468076828700902!3d50.09042423766605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7702cd78ad743894!2sZ%C3%A1kladna%20Peira!5e0!3m2!1scs!2scz!4v1583172762637!5m2!1scs!2scz\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>\nJesenice u Rakovníka, E 100<br>\nStředočeský kraj<br>270 33<br><br><b>Контакты</b><br>\nEmail: peira@email.cz<br>\nТелефон:  +420 774 75 22 44<br>\nSkype:&nbsp;uniprep",
+          "text2": "<p><a href=\"https://www.uniprep.cz/ru\"></a><strong>Ссылки</strong></p><ul><li><a href=\"https://www.uniprep.cz/cs\">UniPrep</a></li><li><a href=\"https://www.instagram.com/uniprep.prague/\" class=\"text-warning\">Instagram</a></li></ul><p></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-9"
+        }
+      ]
+    },
+    "in-camp.html": {
+      "settings": {
+        "title": "В лагере",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "В лагере<br>",
+          "meta": "<b><br></b>Ребята размещаются в домиках по 6-7 человек. В каждом домике есть собственный санузел, душ и раковина. Теплая вода доступна в течение всего дня. На случай похолодания (которого в последние годы практически не было) предусмотрено локальное электрическое отопление. В каждом домике есть коридор, полки для вещей и терраса (подходит для отдыха, сушки белья и др.).<br><br><b>Связь.</b> <br>Несмотря на то, что мы находимся среди красивой природы и на свежем воздухе, мы понимаем, что быть на связи с семьей и близкими для участников лагеря очень важно, и потому в главном здании и в некоторых домиках доступна бесплатная wi-fi сеть (для любых устройств, способных подключиться к wi-fi). Ребята пользуются wi-fi сетью, прежде всего, для бесплатного общения с семьей",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-16",
+          "_styles": {
+            "H3": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SMALL": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/imag0127-2000x1123.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag0127-2000x1123-800x449.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1581-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1581-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3990-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sam-3990-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dsc-38-1600x1064.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-38-1600x1064-800x532.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1g"
+        },
+        {
+          "text": "<p><b>Питание.<br></b><span style=\"font-size: 1.25rem;\">Питьевой режим</span><span style=\"font-size: 1.25rem;\"> соблюдается в течение целого дня. На завтрак предлагаются чай, молоко, кофе или какао. В течение дня доступны чай, вода или соки. Вода во всем лагере питьевая, из артезианской скважины, что обеспечивает не только ее качество, но и отличный вкус. Каждый день можно купить лимонад в магазинчике в столовой. На экскурсии детям даем бутылку воды и перекусить с собой.<br>В основе нашего лагеря – качественное питание. Мы стараемся, чтобы еда была не только вкусной, но и качественной. Поэтому мы готовим только из свежих продуктов, никаких полуфабрикатов, мы все готовим самостоятельно. Наш повар использует только домашние рецепты, следит за правильным составом продуктов и избегает искусственных составляющих. Поэтому у нас Вы не найдете опасный глюкозно-фруктозный сироп или пальмовое масло. Мы не используем никаких химических приправ.\n</span></p><p><span style=\"font-size: 1.25rem;\">Завтрак всегда представляет собой шведский стол, включает сладкое и соленое, выпечку и что-нибудь особенное. Потом есть возможность перекусить, после этого идут обед (всегда первое и второе блюдо), дневной полдник, ужин и второй ужин. Предоставляем много фруктов (например, проводим любимую «арбузную вечеринку») и овощей (овощные салаты – например, в качестве гарнира салат «Цезарь»).\n<br>Каждый год нашу кухню хвалят, причем не только за качество, но и за количество (мы не ограничиваем добавку). Поскольку наш лагерь международный, мы используем различные рецепты, и кроме традиционной чешской кухни (у Вас есть возможность попробовать не только наши кнедлики, но и другие специальные блюда), легко справляемся с немецкой (например, вариант немецких колбасок), итальянской (лазанья, спагетти), русской (борщ, блины), венгерской (мясо с перцем, лангош, лечо), австрийской (венский шницель или штрудель) и французской (жареный сыр бри).\n</span></p><p><span style=\"font-size: 1.25rem;\">С большой ответственностью мы подходим к приготовлению сладостей и десертов. Мы считаем, что домашние пироги и калачи – это более здоровая пища, чем искусственное печенье и сладости. Мы печем сами и используем сезонные фрукты, и поэтому в нашей сладкой выпечке Вы найдете абрикосы, персики, чернику, клубнику и др.</span></p><p><span style=\"font-size: 1.25rem;\"><b>Если у Вас есть ограничения в еде</b> или Вы соблюдаете диету, достаточно нам сообщить до Вашего приезда, и мы позаботимся об этом (например, вегетарианская диета, безглютеновая и др.). Если у Вас аллергия на какие-то продукты, достаточно об этом сообщить медсестре, которая позаботится о том, чтобы у каждого блюда было примечание о данном аллергене.</span></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-18"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-4022-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sam-4022-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dsc04947-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04947-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dsc04814-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04814-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dsc04832-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04832-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1f"
+        },
+        {
+          "text": "<p><b>Гости в лагере, приезд в лагерь за детьми.</b><br>Родители могут приехать за детьми в лагерь, удобнее всего приехать в лагерь на машине (см. контакты), из Праги, Карловых Вар или Плзне (рассчитывайте всегда примерно час по времени). Также возможно приехать в гости на поезде с Праги или Плзне (примерно два часа). Переночевать в лагере, однако, нельзя (в таком случае Вам можем забронировать отель у озера).\n</p><p>Разумеется, возможно приехать за детьми в лагерь по окончании пребывания (в последний день лагеря) или досрочно (если нет предварительной договоренности, необходимо нам сообщить хотя бы за 48 часов). Если бы Вы хотели забрать детей всего лишь для небольшой семейной поездки, мы также просим сообщить нам за 48 часов. Однако, исходя из опыта, советуем родителям отложить семейные поездки на время по окончании лагеря (детям обычно жаль, что их программа в лагере была прервана).</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1a"
+        },
+        {
+          "text": "<p>По приезду на каждой кровати – чистое постельное белье, потом оно регулярно меняется, 1 раз в неделю проходит генеральная уборка во всем лагере, за которую отвечает специальный сотрудник. Дети могут в любое время взять пылесос и навести порядок в домике.</p><p><br></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-19"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#dddddd"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#d3d3d3"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#dddddd",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">О курсах</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Программы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Безопасность</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">В лагере</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-9\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://www.uniprep.cz/application/p1\">Заявка</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/uniprep-logo-2015-rgb.svg",
+              "class": "",
+              "height": 128,
+              "alt": "UniPrep",
+              "link": "https://www.uniprep.cz/ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PEIRA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-13"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0.8",
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10239.11604525525!2d13.468076828700902!3d50.09042423766605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7702cd78ad743894!2sZ%C3%A1kladna%20Peira!5e0!3m2!1scs!2scz!4v1583172762637!5m2!1scs!2scz\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>\nJesenice u Rakovníka, E 100<br>\nStředočeský kraj<br>270 33<br><br><b>Контакты</b><br>\nEmail: peira@email.cz<br>\nТелефон:  +420 774 75 22 44<br>\nSkype:&nbsp;uniprep",
+          "text2": "<p><a href=\"https://www.uniprep.cz/ru\"></a><strong>Ссылки</strong></p><ul><li><a href=\"https://www.uniprep.cz/cs\">UniPrep</a></li><li><a href=\"https://www.instagram.com/uniprep.prague/\" class=\"text-warning\">Instagram</a></li></ul><p></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-14"
+        }
+      ]
+    },
+    "faq.html": {
+      "settings": {
+        "title": "FAQ",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#dddddd"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#d3d3d3"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#dddddd",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">О курсах</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Программы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Безопасность</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">В лагере</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-9\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://www.uniprep.cz/application/p1\">Заявка</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/uniprep-logo-2015-rgb.svg",
+              "class": "",
+              "height": 128,
+              "alt": "UniPrep",
+              "link": "https://www.uniprep.cz/ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PEIRA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-w"
+        },
+        {
+          "text": "<p><b>Вопрос<br></b>&nbsp; &nbsp; Ответ</p><p><b>Вопрос<br></b>&nbsp; &nbsp; Ответ</p><p><b>Вопрос<br></b>&nbsp; &nbsp; Ответ<b><br></b></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0.8",
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10239.11604525525!2d13.468076828700902!3d50.09042423766605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7702cd78ad743894!2sZ%C3%A1kladna%20Peira!5e0!3m2!1scs!2scz!4v1583172762637!5m2!1scs!2scz\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>\nJesenice u Rakovníka, E 100<br>\nStředočeský kraj<br>270 33<br><br><b>Контакты</b><br>\nEmail: peira@email.cz<br>\nТелефон:  +420 774 75 22 44<br>\nSkype:&nbsp;uniprep",
+          "text2": "<p><a href=\"https://www.uniprep.cz/ru\"></a><strong>Ссылки</strong></p><ul><li><a href=\"https://www.uniprep.cz/cs\">UniPrep</a></li><li><a href=\"https://www.instagram.com/uniprep.prague/\" class=\"text-warning\">Instagram</a></li></ul><p></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-x"
+        }
+      ]
+    },
+    "program.html": {
+      "settings": {
+        "title": "О программе",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#dddddd"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#d3d3d3"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#dddddd",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">О курсах</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Программы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Безопасность</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">В лагере</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-9\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://www.uniprep.cz/application/p1\">Заявка</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/uniprep-logo-2015-rgb.svg",
+              "class": "",
+              "height": 128,
+              "alt": "UniPrep",
+              "link": "https://www.uniprep.cz/ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PEIRA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-4"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "О программе",
+          "meta": "Летом мы всегда предлагаем единую двухнедельную программу на каникулы. Причина заключается в том, что каждый сезон летнего лагеря требует от нас очень много подготовки, усилий, личной энергии, но также и в том, что, по нашему мнению, невозможно реализовать несколько раз подряд программу с одним и тем же качеством, и годовая пауза перед следующим сезоном дает уверенность, что он, по крайней мере, не уступит в качестве предыдущему.<br><br>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-h",
+          "_styles": {
+            "SMALL": {
+              "font-size": "20px"
+            },
+            "H3": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/b5-380x220.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/b5-380x220-380x220.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/b7-380x220.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/b7-380x220-380x220.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/20170715-152225-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170715-152225-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/imag0127-2000x1123.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag0127-2000x1123-800x449.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-o"
+        },
+        {
+          "text": "<p>Мы считаем, что лето и школьные каникулы – это идеальное время для познания нового, но также мы знаем, что наибольшей популярностью у детей пользуется познание, нацеленное на несколько областей, и, скорее, в виде легкой пробы, чем углубленного изучения. Поэтому мы стараемся найти равновесие между всеми аспектами, включенными в программу лагеря, так, чтобы он вдохновлял ребят, а может, и стал для них мотивацией в последующие годы. Кого-то, например, заинтересует чешский, и он будет дальше заниматься его изучением, кого-то привлекут чешские университеты, которые мы показываем, но найдется и кто-то, кто не останется равнодушным к курсу первой помощи и дома запишется на продолжающие курсы. Четвертый приедет, чтобы познакомиться с частью Центральной Европы, пятый хочет улучшить свой английский, а шестой ждет-не дождется того, что, возможно, впервые в жизни проведет лето на природе, откроет для себя ее красоту и силу и научится кое-чему, что с ней связано.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-f"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": false,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bez-nzvu-23x59.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pragueplus-186x260.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/peira-186x260.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bez-nzvu-23x59.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1d"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0.8",
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10239.11604525525!2d13.468076828700902!3d50.09042423766605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7702cd78ad743894!2sZ%C3%A1kladna%20Peira!5e0!3m2!1scs!2scz!4v1583172762637!5m2!1scs!2scz\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>\nJesenice u Rakovníka, E 100<br>\nStředočeský kraj<br>270 33<br><br><b>Контакты</b><br>\nEmail: peira@email.cz<br>\nТелефон:  +420 774 75 22 44<br>\nSkype:&nbsp;uniprep",
+          "text2": "<p><a href=\"https://www.uniprep.cz/ru\"></a><strong>Ссылки</strong></p><ul><li><a href=\"https://www.uniprep.cz/cs\">UniPrep</a></li><li><a href=\"https://www.instagram.com/uniprep.prague/\" class=\"text-warning\">Instagram</a></li></ul><p></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-5"
+        }
+      ]
+    },
+    "safety.html": {
+      "settings": {
+        "title": "О безопасности",
+        "order": 5
+      },
+      "components": [
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "О безопасности",
+          "meta": "Безопасность в нашем лагере – на первом месте. Поэтому сразу после приезда для всех участников лагеря пройдет, так называемый, приветственный осмотр лагеря, во время которого ребята в малых группах на русском или английском языке познакомятся со всем, чем в лагере будут пользоваться, что для них будет полезно или приятно, а также пройдет тренинг по безопасности, который их познакомит со всеми главными правилами и запретами. Каждый участник лагеря письменно заверяет, что был ознакомлен с правилами безопасности.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-r",
+          "_styles": {
+            "H3": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SMALL": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "text": "<p><b>По приезду</b> в лагерь все важные документы ребят (паспорта, страховки, обратные билеты и др.) передаются главному руководителю. На время экскурсии, особенно за границу, руководитель берет паспорта и страховки с собой. Если ребята хотят, они могут положить свои деньги в наш специальный сейф (в конверте с обозначением имени и суммы)</p><p><b>По окончании</b> лагеря мы провожаем детей в аэропорт, следим за тем, как проходит сдача багажа или регистрация на последующий рейс (если авиакомпания позволяет, мы проследим за онлайн-регистрацией еще в лагере). Детям старше 15 лет не требуется доверенность от родителей. В случае отъезда на автобусе или поезде обеспечим передачу ребенка перевозчику.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-t"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/sdc14160-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sdc14160-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dsc04728-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04728-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1625-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1625-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3990-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sam-3990-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": true,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-s"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "Медпункт и вопросы здравоохранения",
+          "meta": "Во время проведения лагеря на его территории присутствует медицинский работник с квалификацией для детских лагерей (постановление Минздрава ЧР 422/2013 Sb.). По приезду каждый участник лагеря побеседует с медсестрой, сдаст подтверждение об отсутствии инфекций, если нужно, лекарства или инструкции из дома о принятии лекарств. Наша медсестра отвечает за:\n<br>\n<br>\n<br>►осмотр в случае болезни, травмы\n<br>►проверку соблюдения гигиены и уборки в домиках, главном здании и кухне\n<br>►здоровое и регулярное питание участников лагеря\n<br>►соблюдение питьевого режима\n<br>►сопровождение во время занятий спортом и на экскурсиях\n<br>►правильный прием лекарств из дома (необходима письменная инструкция от врача)\n<br>►ведение медицинской книги и документации в соответствии с законными нормами<br><br>В случае, если возникнет необходимость посетить профессионального врача, мы отправляем ребят неподалеку к местному стоматологу, в остальных случаях едем в больницу ближайшего города Раковник (примерно 15 минут от лагеря), если, конечно, ассистентская служба страховой компании не определит для нас другую больницу, как правило, самую большую пражскую в районе Мотол. За осмотр обычно необходимо заплатить наличными, потом страховая компания возмещает расходы (как правило, по приезду домой на основе предоставленных документов). В случае посещения стоматолога у каждой страховой компании свои правила, которые могут отличаться в зависимости от вида страховки. Если посещение врача необходимо, мы ребенка всегда сопровождаем и остаемся на связи с родителями и ассистентской службой страховой компании.<br>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-v",
+          "_styles": {
+            "H3": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SMALL": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#dddddd"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#d3d3d3"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#dddddd",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">О курсах</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Программы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Безопасность</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">В лагере</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-9\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://www.uniprep.cz/application/p1\">Заявка</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/uniprep-logo-2015-rgb.svg",
+              "class": "",
+              "height": 128,
+              "alt": "UniPrep",
+              "link": "https://www.uniprep.cz/ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PEIRA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0.8",
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10239.11604525525!2d13.468076828700902!3d50.09042423766605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7702cd78ad743894!2sZ%C3%A1kladna%20Peira!5e0!3m2!1scs!2scz!4v1583172762637!5m2!1scs!2scz\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>\nJesenice u Rakovníka, E 100<br>\nStředočeský kraj<br>270 33<br><br><b>Контакты</b><br>\nEmail: peira@email.cz<br>\nТелефон:  +420 774 75 22 44<br>\nSkype:&nbsp;uniprep",
+          "text2": "<p><a href=\"https://www.uniprep.cz/ru\"></a><strong>Ссылки</strong></p><ul><li><a href=\"https://www.uniprep.cz/cs\">UniPrep</a></li><li><a href=\"https://www.instagram.com/uniprep.prague/\" class=\"text-warning\">Instagram</a></li></ul><p></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-3"
+        }
+      ]
+    }
+  }
+}
