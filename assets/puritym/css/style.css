@@ -419,8 +419,7 @@ footer.mbr-footer {
   left: 50%;
   text-decoration: none !important;
   width: 30px;
-  margin-left: -36px;
-margin-bottom: 35px;
+  margin-left: -15px;
   line-height: 1px;
   padding: 0 20px;
   -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
